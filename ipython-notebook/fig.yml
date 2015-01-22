@@ -1,0 +1,6 @@
+notebook:
+  build: .
+  volumes:
+    - ~/notebooks:/data/notebooks
+  ports:
+    - 8888:8888
